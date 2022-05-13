@@ -1,0 +1,16 @@
+{
+  "swiperListArr": [
+    {
+      "id": 1,
+      "title": "Bank xidmətləri",
+      "text": "SİMA – bulud və üztanıma texnologiyalarına əsaslanan yeni nəsil elektron imzadır. Mobil tətbiq əsaslı SİMA əlavə vasitələrə ehtiyac olmadan, eləcə də heç yerə getmədən daha rahat şəkildə elektron xidmətlər əldə etməyə imkan verəcək.",
+      "image": "https://i.ibb.co/yscYgtj/sima1.png"
+    },
+    {
+      "id": 2,
+      "title": "SİMA-da ilk tərəfdaş",
+      "text": "Artıq “PAŞA Bank”ın əmək haqqı kartı sahibləri mobil tətbiq vasitəsilə banka getmədən kredit üçün müraciət edə biləcəklər. Bunun üçün SİMA tətbiqində qeydiyyatdan keçmək kifayətdir.",
+      "image": "https://i.ibb.co/DzT48Zy/sima2.png"
+    }
+  ]
+}

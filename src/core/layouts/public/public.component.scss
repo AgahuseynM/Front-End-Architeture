@@ -1,0 +1,10 @@
+@import "@/assets/styles/abstracts";
+
+.public {
+  &__content {
+    @include transition;
+    &--full {
+      margin-left: 0;
+    }
+  }
+}
