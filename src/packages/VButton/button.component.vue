@@ -7,6 +7,7 @@
           class="btn"
           :type="type"
   >
+
     <slot name="icon"></slot>
     <slot/>
   </button>

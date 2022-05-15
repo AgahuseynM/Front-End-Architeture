@@ -2,6 +2,7 @@
 <template>
   <div class="home">
     <swiper-component/>
+    <service-icons-component/>
   </div>
 </template>
 <script lang="ts" src="./home.component.ts"></script>

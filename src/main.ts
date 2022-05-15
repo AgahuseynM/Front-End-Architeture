@@ -14,6 +14,14 @@ import AlertComponent from '@/packages/VAlert/alert.component.vue';
 import ModalComponent from '@/packages/VModal/modal.component.vue';
 import DropdownComponent from "@/packages/VDropdown/dropdown.component.vue";
 import LogoComponent from "@/packages/VLogo/logo.component.vue";
+import SwiperClass, {Navigation, Pagination} from 'swiper'
+import "swiper/swiper-bundle.css";
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
+SwiperClass.use([Navigation, Pagination])
+
+
+
 library.add(fas);
 
 const app = createApp(App);
@@ -26,6 +34,9 @@ app.component('v-modal', ModalComponent);
 app.component('v-card', CardComponent);
 app.component('v-dropdown', DropdownComponent)
 app.component('v-logo', LogoComponent)
-app.use(store).use(router).mount('#app');
+app
+    .use(store)
+    .use(router)
+    .mount('#app');
 
 

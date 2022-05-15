@@ -2,7 +2,7 @@
   "swiperListArr": [
     {
       "id": 1,
-      "title": "Bank xidmətləri",
+      "title": "Yeni nəsil elektron imza",
       "text": "SİMA – bulud və üztanıma texnologiyalarına əsaslanan yeni nəsil elektron imzadır. Mobil tətbiq əsaslı SİMA əlavə vasitələrə ehtiyac olmadan, eləcə də heç yerə getmədən daha rahat şəkildə elektron xidmətlər əldə etməyə imkan verəcək.",
       "image": "https://i.ibb.co/yscYgtj/sima1.png"
     },
@@ -11,6 +11,38 @@
       "title": "SİMA-da ilk tərəfdaş",
       "text": "Artıq “PAŞA Bank”ın əmək haqqı kartı sahibləri mobil tətbiq vasitəsilə banka getmədən kredit üçün müraciət edə biləcəklər. Bunun üçün SİMA tətbiqində qeydiyyatdan keçmək kifayətdir.",
       "image": "https://i.ibb.co/DzT48Zy/sima2.png"
+    }
+  ],
+
+  "serviceIconsListArr": [
+    {
+      "item_id": 1,
+      "text": "Bank xidmətləri",
+      "service_icon": "https://i.ibb.co/0CK3Znk/img1.png"
+    },
+    {
+      "item_id": 2,
+      "text": "BOKT xidmətləri",
+      "service_icon": "https://i.ibb.co/qF0p110/img2.png"
+    },
+    {
+      "item_id": 3,
+      "text": "Sığorta xidmətləri",
+      "service_icon": "https://i.ibb.co/30Hgg46/img3.png"
+    },
+    {
+      "item_id": 4,
+      "text": "Dövlət elektron xidmətləri",
+      "service_icon": "https://i.ibb.co/tBk7LRZ/img4.png"
+    },
+    {
+      "item_id": 5,
+      "text": "Elektron ticarət",
+      "service_icon": "https://i.ibb.co/Nm8Ncds/img5.png"
+    },
+    { "item_id": 6,
+      "text": "Digər elektron xidmətlər",
+      "service_icon": "https://i.ibb.co/1mrQQx2/img6.png"
     }
   ]
 }
