@@ -14,13 +14,15 @@ import AlertComponent from '@/packages/VAlert/alert.component.vue';
 import ModalComponent from '@/packages/VModal/modal.component.vue';
 import DropdownComponent from "@/packages/VDropdown/dropdown.component.vue";
 import LogoComponent from "@/packages/VLogo/logo.component.vue";
-import SwiperClass, {Navigation, Pagination} from 'swiper'
-import "swiper/swiper-bundle.css";
+/*import "swiper/swiper-bundle.css";
 import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
+import 'swiper/swiper.min.css'*/
+import SwiperClass, {Navigation, Pagination} from 'swiper'
 SwiperClass.use([Navigation, Pagination])
-
-
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+/*import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'*/
 
 library.add(fas);
 
@@ -35,6 +37,7 @@ app.component('v-card', CardComponent);
 app.component('v-dropdown', DropdownComponent)
 app.component('v-logo', LogoComponent)
 app
+    //.use(VueAwesomeSwiper)
     .use(store)
     .use(router)
     .mount('#app');

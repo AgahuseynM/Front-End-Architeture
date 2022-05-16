@@ -1,0 +1,111 @@
+@import '@/assets/styles/abstracts';
+.partners-users {
+  outline: 1px red solid;
+  .row {
+    .col-6 {
+      outline: 1px blue solid;
+    }
+  }
+}
+
+//Main Properties
+
+.partners-users_content {
+  height: 38.313rem;
+
+  .partners-block {
+    box-shadow: 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    background: $color8;
+    position: relative;
+
+    .partners {
+      width: 26.25rem;
+      height: 26.008rem;
+
+      position: absolute;
+      top: 50%;
+      left: 51.7%;
+      transform: translate(-50%, -50%);
+
+      &_title {
+        width: 23.75rem;
+        height: 6.25rem;
+        margin-bottom: 2.813rem;
+
+        font: 2.5rem $font-bold3;
+        line-height: 3.125rem;
+        letter-spacing: 0.005em;
+        color: $color1;
+      }
+
+      &_list {
+        margin-bottom: 2rem;
+        display: flex;
+
+
+        &__icon {
+          background: no-repeat center;
+          width: 2.688rem;
+          height: 2.688rem;
+          margin-right: 1.75rem;
+        }
+
+        &__text {
+          margin-top: 0.563rem;
+          height: 1.625rem;
+          font-size: 1.125rem;
+          line-height: 1.625rem;
+          letter-spacing: 0.0003em;
+          color: $color4;
+        }
+      }
+    }
+  }
+  .users-block {
+    box-shadow: 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    background: $color9;
+    position: relative;
+
+    .users {
+      width: 25.625rem;
+      height: 26.008rem;
+
+      position: absolute;
+      top: 50%;
+      left: 46%;
+      transform: translate(-50%, -50%);
+
+      &_title {
+        width: 23.75rem;
+        height: 6.25rem;
+        margin-bottom: 2.813rem;
+
+        font: 2.5rem $font-bold3;
+        line-height: 3.125rem;
+        letter-spacing: 0.005em;
+        color: $color1;
+      }
+
+      &_list {
+        margin-bottom: 2rem;
+        display: flex;
+
+        &__icon {
+          background: no-repeat center;
+          width: 2.688rem;
+          height: 2.688rem;
+          margin-right: 1.75rem;
+        }
+
+        &__text {
+          margin-top: 0.563rem;
+          height: 1.625rem;
+          font-size: 1.125rem;
+          line-height: 1.625rem;
+          letter-spacing: 0.0003em;
+          color: $color4;
+        }
+      }
+    }
+  }
+}

@@ -20,10 +20,9 @@
       </li>
 
       <li class="header-right__item search  px-4 py-7">
-        <a class="search_btn" href="#" @click="showSearchInput">
+        <a class="search_btn" href="#" @click.prevent="showSearchInput">
           <img class="search_img" src="@/assets/images/search.png" >
         </a>
-
          <input  type="text" class="v-input v-input--dark search-input" v-if="searchInputVisibility">
       </li>
     </ul>

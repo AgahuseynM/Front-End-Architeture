@@ -1,11 +1,10 @@
 @import '@/assets/styles/abstracts';
 .services-icons {
-  height: 31.40rem;
+  height: 36.125rem;
   box-shadow: 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
-  outline: 1px red solid;
 
-  .col-12 {
-    position: relative;
+  .container {
+    position: relative
   }
 }
 
@@ -32,6 +31,7 @@
     left: 50%;
     transform: translate(-50%, 0%);
   }
+
   &__list {
     width: 100%;
     margin-top: 6.375rem;

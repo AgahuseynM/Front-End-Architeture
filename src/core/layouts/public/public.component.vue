@@ -3,7 +3,7 @@
   <div class="public pt-20">
     <header-component/>
     <div class="container-fluid p-0">
-      <div class="public__content">
+      <div class="public__content p-0">
         <router-view/>
       </div>
     </div>

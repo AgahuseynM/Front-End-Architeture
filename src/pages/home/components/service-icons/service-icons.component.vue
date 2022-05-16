@@ -3,7 +3,7 @@
 <template>
   <div class="services-icons">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 container">
         <div class="service-icons_container">
           <div class="service-icons_container__title">SİMA ilə hansı xidmətlər əldə edilə bilər?</div>
           <div class="service-icons_container__list">

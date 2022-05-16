@@ -44,5 +44,51 @@
       "text": "Digər elektron xidmətlər",
       "service_icon": "https://i.ibb.co/1mrQQx2/img6.png"
     }
+  ],
+
+  "partnersListArr": [
+    {
+      "id": 1,
+      "text": "Məkan və zamandan asılı olmadan xidmət",
+      "icon": "https://i.ibb.co/bv3Zcbs/img1.png"
+    },
+    {
+      "id": 2,
+      "text": "Vaxta və sənəd itkisinin aradan qaldırılması",
+      "icon": "https://i.ibb.co/58D3cZX/img2.png"
+    },
+    {
+      "id": 3,
+      "text": "Xərclərin azaldılması",
+      "icon": "https://i.ibb.co/23wgy4c/img3.png"
+    },
+    {
+      "id": 4,
+      "text": "Arxiv işlərinin minimallaşdırılması",
+      "icon": "https://i.ibb.co/86yWy6C/img4.png"
+    }
+  ],
+
+  "usersListArr": [
+    {
+      "id": 1,
+      "text": "Rahatlıq və təhlükəsizlik",
+      "icon": "https://i.ibb.co/p2X7gNm/img1.png"
+    },
+    {
+      "id": 2,
+      "text": "Tamamilə ödənişsiz istifadə",
+      "icon": "https://i.ibb.co/h98p09K/img2.png"
+    },
+    {
+      "id": 3,
+      "text": "Mobil tətbiqdə sürətli qeydiyyat",
+      "icon": "https://i.ibb.co/sHWyJmr/img3.png"
+    },
+    {
+      "id": 4,
+      "text": "Elektron sənədlərin anında imzalanması",
+      "icon": "https://i.ibb.co/XDqF7zN/img4.png"
+    }
   ]
 }
