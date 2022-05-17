@@ -9,7 +9,7 @@ import {Options, Vue} from 'vue-class-component';
     props: {
         title: {
             type: String,
-            required: true,
+            default: ''
         },
         color: {
             type: String,

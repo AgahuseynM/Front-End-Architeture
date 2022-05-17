@@ -74,6 +74,14 @@
     line-height: 24px;
     letter-spacing: 0.003em;
   }
+  &--sima-blue {
+    width: 143px;
+    color: $color5 !important;
+    background-color: $color1 !important;
+    font: 16px $font-bold3;
+    line-height: 24px;
+    letter-spacing: 0.003em;
+  }
 
   &--rounded {
     border-radius: rem(50) !important;

@@ -1,0 +1,16 @@
+@import "@/assets/styles/abstracts";
+
+.footer {
+  margin-bottom: 30px;
+  .row {
+    height: 19.688rem;
+    .col-4 {
+      position: relative;
+      height: 16.063rem;
+    }
+    .col-12 {
+      background: $color8;
+      position: relative;
+    }
+  }
+}

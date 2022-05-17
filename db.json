@@ -90,5 +90,28 @@
       "text": "Elektron sənədlərin anında imzalanması",
       "icon": "https://i.ibb.co/XDqF7zN/img4.png"
     }
+  ],
+
+  "bePartnerListArr": [
+    {
+      "id": 1,
+      "title": "Banklar",
+      "icon": "https://i.ibb.co/XYtCnvz/img1.png"
+    },
+    {
+      "id": 2,
+      "title": "BOKT",
+      "icon": "https://i.ibb.co/jDR5V2B/img2.png"
+    },
+    {
+      "id": 3,
+      "title": "Sığorta şirkətləri",
+      "icon": "https://i.ibb.co/SKyzfWs/img3.png"
+    },
+    {
+      "id": 4,
+      "title": "Elektron xidmət provayderləri",
+      "icon": "https://i.ibb.co/1qNxRWd/img4.png"
+    }
   ]
 }

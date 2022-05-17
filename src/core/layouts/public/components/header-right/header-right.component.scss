@@ -18,6 +18,8 @@
       .search-input {
         width: 40%;
         position: absolute;
+        z-index: 1;
+        color: $color1;
         top: 4.5rem;
         right: 1rem;
       }

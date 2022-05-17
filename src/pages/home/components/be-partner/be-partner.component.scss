@@ -1,0 +1,73 @@
+@import "@/assets/styles/abstracts";
+
+.be-partner {
+  &_content {
+    height: 30.688rem;
+
+    .col-12 {
+      position: relative;
+
+      .be-partner_content__title-block-list {
+        width: 73rem;
+        height: 21.25rem;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .title {
+          width: 52rem;
+          margin: 0 auto;
+          margin-bottom: 2rem;
+
+          font: 1.75rem $font-bold3;
+          line-height: 2.25rem;
+          text-align: center;
+          letter-spacing: 0.0004em;
+          color: $color1;
+        }
+
+        .text {
+          width: 33.25rem;
+          margin: 0 auto;
+          margin-bottom: 1.25rem;
+
+          font-size: 0.938rem;
+          line-height: 1.5rem;
+          text-align: center;
+          letter-spacing: 0.0003em;
+          color: $color4;
+
+          span {
+            font-weight: bold;
+            color: $color1;
+          }
+        }
+
+        .list {
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+
+          &_item {
+            &__icon {
+              width: 16.75rem;
+              height: 8.75rem;
+              margin-bottom: 0.75rem;
+              background: no-repeat center;
+            }
+
+            &__title {
+              font: 1.125rem $font-bold3;
+              line-height: 1.625rem;
+              text-align: center;
+              letter-spacing: 0.0003em;
+              color: $color1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

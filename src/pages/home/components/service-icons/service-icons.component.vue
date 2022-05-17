@@ -1,8 +1,8 @@
 <style src="./service-icons.component.scss" lang="scss"></style>
 
 <template>
-  <div class="services-icons">
-    <div class="row">
+  <div class="service-icons">
+    <div class="row .service-icons_content">
       <div class="col-12 container">
         <div class="service-icons_container">
           <div class="service-icons_container__title">SİMA ilə hansı xidmətlər əldə edilə bilər?</div>

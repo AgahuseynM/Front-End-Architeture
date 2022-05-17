@@ -6,7 +6,7 @@
       :slides-per-view="1"
       :pagination="{clickable: true}"
   >
-    <swiper-slide class="row" v-for="(item, index) in swiperListAll" :key="index">
+    <swiper-slide class="row swiper_content" v-for="(item, index) in swiperListAll" :key="index">
       <div class="col-5">
         <div class="swiper_info">
           <div class="swiper_info__title">

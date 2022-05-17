@@ -1,0 +1,42 @@
+@import "@/assets/styles/abstracts";
+
+.footer-center {
+  width: 8rem;
+  height: 4rem;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .email {
+    height: 1.5rem;
+    display: flex;
+
+    &_icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    &_address {
+      text-indent: 0.625rem;
+      font: 0.938rem $font-medium2;
+      line-height: 1.5rem;
+      letter-spacing: 0.003em;
+      color: $color1;
+    }
+  }
+
+  .social-media {
+    width: 6.25rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    &_icons {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: no-repeat center;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "@/assets/styles/abstracts";
+
+.footer-left {
+  width: 18.188rem;
+  height: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .buttons {
+    margin-top: 2.418rem;
+    display: flex;
+    justify-content: space-between;
+
+    .v-btn {
+      height: 2.5rem;
+      width: 8.75rem;
+    }
+  }
+}

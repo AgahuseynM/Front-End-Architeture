@@ -1,0 +1,53 @@
+@import '@/assets/styles/abstracts';
+
+.sign-video {
+  background-size: cover;
+  background-position: center;
+
+  .row {
+    height: 30rem;
+    background: rgba(29, 32, 79, 0.5);
+
+    .col-12 {
+      position: relative;
+
+      /*Content block*/
+
+      .container {
+        width: 45rem;
+        height: 14.375rem;
+        color: $color5;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /*Play video button*/
+
+        .play-video-btn {
+          width: 3.625rem;
+          height: 3.625rem;
+          margin: 0 auto;
+          margin-bottom: 2rem;
+          cursor: pointer;
+        }
+
+        &_title {
+          margin-bottom: 2rem;
+          font: 1.75rem $font-bold3;
+          line-height: 2.25rem;
+          text-align: center;
+          letter-spacing: 0.004em;
+        }
+
+        &_text {
+          font: 0.938rem $font-thin4;
+          line-height: 1.5rem;
+          text-align: center;
+          letter-spacing: 0.003em;
+        }
+      }
+    }
+  }
+}
