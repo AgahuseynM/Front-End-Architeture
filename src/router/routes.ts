@@ -1,7 +1,11 @@
 import {RouteRecordRaw} from 'vue-router';
 import Public from '@/core/layouts/public/public.component.vue';
 import Home from '@/pages/home/home.component.vue';
-import AuthComponent from '@/core/layouts/auth/auth.component.vue';
+import Download from "@/pages/download/download.component.vue";
+import Services from "@/pages/services/services.component.vue";
+import News from "@/pages/news/news.component.vue";
+import Partners from "@/pages/partners/partners.component.vue";
+import Faq from "@/pages/faq/faq.component.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -21,46 +25,32 @@ const routes: Array<RouteRecordRaw> = [
                 },
             },
             {
-                path: 'about',
-                name: 'about',
-                meta: {
-                    breadcrumb: 'About',
-                },
-                // route level code-splitting
-                // this generates a separate chunk (about.[hash].js) for this route
-                // which is lazy-loaded when the route is visited.
-                component: () => import(/* webpackChunkName: "about" */ '../pages/about/about.component.vue'),
-            },
-        ],
-    },
-    {
-        path: '/auth',
-        name: 'auth',
-        component: AuthComponent,
-        redirect: {name: 'login'},
-        children: [
-            {
-                path: 'login',
-                name: 'login',
-                component: () => import('../pages/login/login.component.vue'),
+                path: '/download',
+                name: 'download',
+                component: Download
             },
             {
-                path: 'register',
-                name: 'register',
-                component: () => import('../pages/register/register.component.vue'),
+                path: '/services',
+                name: 'services',
+                component: Services
             },
+            {
+                path: '/partners',
+                name: 'partners',
+                component: Partners
+            },
+            {
+                path: '/news',
+                name: 'news',
+                component: News
+            },
+            {
+                path: '/faq',
+                name: 'faq',
+                component: Faq
+            }
         ],
     },
-    {
-        path: '/not-found',
-        name: '404',
-        component: () => import(/* webpackChunkName: "about" */ '../pages/not-found/not-found.component.vue'),
-    },
-    // {
-    //     path: '/:catchAll(.*)',
-    //     redirect: '/not-found'
-    // }
-
 ];
 
 export default routes;

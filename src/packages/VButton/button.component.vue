@@ -7,6 +7,7 @@
           class="btn"
           :type="type"
   >
+    <i class="material-icons">{{icon}}</i>
 
     <slot name="icon"></slot>
     <slot/>

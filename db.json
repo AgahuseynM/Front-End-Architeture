@@ -46,6 +46,39 @@
     }
   ],
 
+  "cardListArr": [
+    {
+      "id": 1,
+      "title": "Yeni istifadəçi, yeni imkanlar",
+      "text": "Kompaniyamıza qoşulan hər yeni istifadəçi üçün ilk 10 tranzaksiya bizdən hədiyyə.",
+      "cardImg": "https://i.ibb.co/jDs8y3C/img1.png"
+    },
+    {
+      "id": 2,
+      "title": "SİMA tətbiqi banklara təqdim olundu.",
+      "text": "Azərbaycan Banklar Assosasiyası ilə birgə təşkil olunan təqdimat görüşündə ölkənin 20-ə yaxın aparıcı bankının təmsilçiləri iştirak edib.",
+      "cardImg": "https://i.ibb.co/NKP22Vr/img2.png"
+    },
+    {
+      "id": 3,
+      "title": "SİMA - yeni nəsil elektron imza üzrə texniki işlər yekunlaşmaqdadır.",
+      "text": "Rəqəmsal transformasiya fonunda yaradılan yeni imza vasitəsilə bank, BOKT, sığorta, ...",
+      "cardImg": "https://i.ibb.co/CJFP5PV/img3.png"
+    },
+    {
+      "id": 4,
+      "title": "SİMA - yeni nəsil elektron imza üzrə texniki işlər yekunlaşmaqdadır.",
+      "text": "Rəqəmsal transformasiya fonunda yaradılan yeni imza vasitəsilə bank, BOKT, sığorta, ...",
+      "cardImg": "https://i.ibb.co/CJFP5PV/img3.png"
+    },
+    {
+      "id": 5,
+      "title": "SİMA tətbiqi banklara təqdim olundu.",
+      "text": "Azərbaycan Banklar Assosasiyası ilə birgə təşkil olunan təqdimat görüşündə ölkənin 20-ə yaxın aparıcı bankının təmsilçiləri iştirak edib.",
+      "cardImg": "https://i.ibb.co/NKP22Vr/img2.png"
+    }
+  ],
+
   "partnersListArr": [
     {
       "id": 1,

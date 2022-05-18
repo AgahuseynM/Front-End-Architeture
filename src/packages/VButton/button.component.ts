@@ -31,6 +31,10 @@ import {Options, Vue} from 'vue-class-component';
             type: String,
             defaults: 'button',
         },
+        icon: {
+            type: String,
+            default: ''
+        }
     },
 })
 export default class ButtonComponent extends Vue {

@@ -1,7 +1,6 @@
 @import "@/assets/styles/abstracts";
 
 .footer {
-  margin-bottom: 30px;
   .row {
     height: 19.688rem;
     .col-4 {
@@ -9,6 +8,7 @@
       height: 16.063rem;
     }
     .col-12 {
+      height: 3.625rem;
       background: $color8;
       position: relative;
     }

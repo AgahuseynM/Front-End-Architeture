@@ -16,10 +16,10 @@
             {{item.text}}
           </div>
           <div class="swiper_info__buttons mt-9">
-            <v-btn color="sima" v-if="item.id === 1">
+            <v-btn color="sima" v-if="item.id === 1" icon="apple">
               App Store
             </v-btn>
-            <v-btn color="sima" v-if="item.id === 1">
+            <v-btn color="sima" v-if="item.id === 1" icon="play_arrow">
               Play Market
             </v-btn>
 

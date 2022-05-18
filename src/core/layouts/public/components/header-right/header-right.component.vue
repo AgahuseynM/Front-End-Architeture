@@ -4,19 +4,19 @@
   <div class="header-right d-flex align-center justify-center">
     <ul class="header-right__container d-flex">
       <li class="header-right__item px-4 py-7">
-        Yüklə
+        <router-link :to="{name: 'download'}">Yüklə</router-link>
       </li>
       <li class="header-right__item px-4 py-7">
-        Xidmətlər
+        <router-link :to="{name: 'services'}">Xidmətlər</router-link>
       </li>
       <li class="header-right__item px-4 py-7">
-        Tərəfdaşlar
+        <router-link :to="{name: 'partners'}">Tərəfdaşlar</router-link>
       </li>
       <li class="header-right__item px-4 py-7">
-        Kampaniya və Xəbərlər
+        <router-link :to="{name: 'news'}">Kampaniya və Xəbərlər</router-link>
       </li>
       <li class="header-right__item px-4 py-7">
-        FAQ
+        <router-link :to="{name: 'faq'}">FAQ</router-link>
       </li>
 
       <li class="header-right__item search  px-4 py-7">

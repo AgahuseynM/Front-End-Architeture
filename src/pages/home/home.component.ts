@@ -3,7 +3,7 @@ import SwiperComponent from "@/pages/home/components/swiper/swiper.component.vue
 import ServiceIconsComponent from "@/pages/home/components/service-icons/service-icons.component.vue";
 import PartnersUsersComponent from "@/pages/home/components/partners-users/partners-users.component.vue";
 import BePartnerComponent from "@/pages/home/components/be-partner/be-partner.component.vue";
-//
+import CardComponent from "@/pages/home/components/card/card.component.vue";
 import FaqComponent from "@/pages/home/components/faq/faq.component.vue";
 import SignVideoComponent from "@/pages/home/components/sign-video/sign-video.component.vue";
 
@@ -15,7 +15,8 @@ import SignVideoComponent from "@/pages/home/components/sign-video/sign-video.co
     PartnersUsersComponent,
     BePartnerComponent,
     FaqComponent,
-    SignVideoComponent
+    SignVideoComponent,
+    CardComponent
   }
 })
 export default class HomeComponent extends Vue {}

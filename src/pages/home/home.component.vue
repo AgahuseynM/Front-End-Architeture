@@ -5,6 +5,7 @@
     <service-icons-component/>
     <partners-users-component/>
     <be-partner-component/>
+    <card-component/>
     <faq-component/>
     <sign-video-component/>
   </div>

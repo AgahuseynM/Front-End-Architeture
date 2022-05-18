@@ -7,10 +7,10 @@
           </router-link>
 
     <div class="buttons">
-      <v-btn class="v-btn" color="sima-blue">
+      <v-btn class="v-btn" color="sima-blue" icon="apple">
         App Store
       </v-btn>
-      <v-btn class="v-btn" color="sima-blue">
+      <v-btn class="v-btn" color="sima-blue" icon="play_arrow">
         Play Market
       </v-btn>
     </div>
