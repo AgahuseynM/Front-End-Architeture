@@ -1,4 +1,4 @@
-@import '@/assets/styles/abstracts';
+@import '~@/assets/styles/abstracts';
 
 .news-card {
   background: $color8;
@@ -134,6 +134,7 @@
   border: 1px solid hsla(0,0%,50.2%,.26);
   border-radius: 100%;
   z-index: 10000 !important;
+
   &::after {
     display: none !important;
   }
