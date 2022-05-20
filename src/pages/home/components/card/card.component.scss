@@ -127,3 +127,22 @@
     }
   }
 }
+
+.swiper-button-next, .swiper-button-prev {
+  width: 48px !important;
+  height: 48px !important;
+  border: 1px solid hsla(0,0%,50.2%,.26);
+  border-radius: 100%;
+  z-index: 10000 !important;
+  &::after {
+    display: none !important;
+  }
+}
+
+.swiper-button-prev {
+  background: url("~@/assets/images/button_images/PrevArrow.png") no-repeat center;
+}
+
+.swiper-button-next {
+  background: url("~@/assets/images/button_images/NextArrow.png") no-repeat center;
+}

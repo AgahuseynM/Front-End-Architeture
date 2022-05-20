@@ -25,7 +25,7 @@
 
               <div class="more-btn-block" :class="{ 'active': item.id === 1 }">
 
-                <button class="more-btn">Daha çox <i class="material-icons arrow-icon">arrow_forward</i></button>
+                <button class="more-btn">Daha çox<i class="material-icons arrow-icon">arrow_forward</i></button>
 
                 <button class="item-tag">Xəbər</button>
               </div>
