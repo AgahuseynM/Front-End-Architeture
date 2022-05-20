@@ -15,8 +15,8 @@ import AlertComponent from '@/packages/VAlert/alert.component.vue';
 import ModalComponent from '@/packages/VModal/modal.component.vue';
 import DropdownComponent from "@/packages/VDropdown/dropdown.component.vue";
 import LogoComponent from "@/packages/VLogo/logo.component.vue";
+import PaginationComponent from "@/packages/VPagination/pagination.component";
 import SwiperClass, {Navigation, Pagination} from 'swiper';
-import { Swiper, SwiperSlide } from "swiper/vue";
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
 
@@ -32,8 +32,9 @@ app.component('v-toast', ToastComponent);
 app.component('v-alert', AlertComponent);
 app.component('v-modal', ModalComponent);
 app.component('v-card', CardComponent);
-app.component('v-dropdown', DropdownComponent)
-app.component('v-logo', LogoComponent)
+app.component('v-dropdown', DropdownComponent);
+app.component('v-logo', LogoComponent);
+app.component('v-pagination', PaginationComponent);
 app
     .use(store)
     .use(router)

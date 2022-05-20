@@ -7,7 +7,7 @@
         <div class="service-icons_container">
           <div class="service-icons_container__title">SİMA ilə hansı xidmətlər əldə edilə bilər?</div>
           <div class="service-icons_container__list">
-            <div class="service-icons_item" v-for="(item, index) in ServiceIconsListAll">
+            <div class="service-icons_item" v-for="(item, index) in ServiceIconsListAll" :key="index">
               <div class="service-icons_item__icon" :style="{ backgroundImage: `url(${item.service_icon})`}"></div>
               <div class="service-icons_item__text">
                 {{item.text}}

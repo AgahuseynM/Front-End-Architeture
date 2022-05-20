@@ -6,7 +6,6 @@
   >
     <div class="row sign-video_content">
       <div class="col-12">
-
         <div class="container">
           <div class="play-video-btn"
                :style="{'background-image': 'url(' + require('@/assets/images/PlayVideoBtn.png') + ')'}"

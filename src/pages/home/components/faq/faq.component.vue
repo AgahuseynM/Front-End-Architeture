@@ -80,7 +80,6 @@
           <transition name="answeranim" mode="out-in">
             <div class="answer" v-if="thirdQuestionVisibility">SİMA – elektron imzanın bulud texnologiyalarına əsaslanan versiyasıdır. Bu həll üz tanıma və açıq açar texnologiyasını (elektron imza həlli) özündə birləşdirir.</div>
           </transition>
-
         </div>
       </div>
     </div>
