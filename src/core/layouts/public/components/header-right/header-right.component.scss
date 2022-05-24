@@ -1,27 +1,28 @@
-@import '@/assets/styles/abstracts';
+@import '~@/assets/styles/abstracts';
 
 .header-right {
   position: absolute;
   right: 13.5rem;
 
-    &__item {
-      color: $color1;
-      cursor: pointer;
-      letter-spacing: 0.003em;
-      @include transition(all, 0.3s, ease-out);
+  &__item {
+    color: $color1;
+    cursor: pointer;
+    letter-spacing: 0.003em;
+    @include transition(all, 0.3s, ease-out);
 
-      &:hover {
-        text-shadow: 0 0 .65px #333, 0 0 .65px #333;
-        background-color: $color2;
-      }
-
-      .search-input {
-        width: 40%;
-        position: absolute;
-        z-index: 2;
-        color: $color1;
-        top: 4.5rem;
-        right: 1rem;
-      }
+    &:hover {
+      text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+      background-color: $color2;
     }
+
+    .search-input {
+      width: 40%;
+      position: absolute;
+      z-index: 2;
+      color: $color1;
+      top: 4.5rem;
+      right: 1rem;
+      @include transition(all, 0.3s, ease-out);
+    }
+  }
 }
